@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+    min-height: 100%;
+   
+}
+
+body{
+    margin: 0px;;
+    font-family: roboto,sans-serif;
+    color: #1a1b1c;
+  }
+
+.sidebar {
+   display:flex;
+   flex-direction:column;
+   width: 20%;
+   background: #f5f9ff;
+}
+
+.sidebar-container{
+  flex: 1;
+  margin: 30px;
+  margin-bottom: 200%;
+  margin-left: 20px;
+}
+
+.profile{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image-container{
+  display:flex;
+  flexwrap: wrap;
+   position: auto;
+}
+.profile-image{
+  width: 150px;
+  height:150px;
+  border-radius: 70px;
+ 
+}
+
+.about-me{
+  font-size: 14px;  
+}
+
+
+
+
+
+
